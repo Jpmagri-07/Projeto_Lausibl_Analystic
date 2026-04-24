@@ -1,2 +1,48 @@
-# Projeto_Lausibl_Analystic
-Projeto acadêmico em dupla que recria a interface do Lausibl Analytics usando apenas HTML e CSS. O site é estático, sem interações, com foco em layout, estilização e responsividade, visando praticar fundamentos do desenvolvimento web.
+<h1 align="center">Lausibl Analytics (Clone Acadêmico)&nbsp; 
+  <img src="imgs/logocompleto.png" alt="Logo do Projeto" width="100">
+  
+</h1>
+
+
+
+## 📌 Sobre o Projeto
+Este repositório contém o desenvolvimento de um site inspirado na plataforma Lausibl Analytics, criado exclusivamente para fins acadêmicos.
+
+O objetivo é recriar a interface visual da plataforma, focando na estrutura, design e organização dos elementos, sem implementação de funcionalidades interativas.
+
+---
+
+## 🎯 Objetivo
+- Praticar fundamentos de desenvolvimento web  
+- Trabalhar com estruturação em HTML  
+- Aplicar estilização com CSS  
+- Desenvolver noções de layout e responsividade  
+- Simular uma interface real de sistema  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- HTML5  
+- CSS3  
+
+---
+
+## 👥 Integrantes
+Projeto desenvolvido em dupla como atividade escolar.
+
+---
+
+## 🚫 Limitações
+- Projeto estático (sem JavaScript)  
+- Sem backend ou banco de dados  
+- Sem funcionalidades dinâmicas  
+
+---
+
+## 📷 Preview do Projeto
+<!-- Adicione aqui imagens ou prints do seu site -->
+
+---
+
+## 📚 Finalidade
+Este projeto tem caráter exclusivamente educacional, não possuindo qualquer vínculo oficial com a plataforma original.
