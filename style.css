@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cima{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+}
+.conteudo{
+    max-width: 1200px; /* largura máxima */
+    margin: 0 auto;    /* centraliza */
+    padding: 0 40px;   /* espaço interno lateral */
+}
+/* LOGO */
+.cima img{
+    height: 40px;
+}
+
+/* MENU CENTRAL */
+.opcoes{
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ITENS */
+.opcoes h2{
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.opcoes h2:hover{
+    color: black;
+}
+
+/* DIREITA */
+.separada{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.opcoes h2{
+    transition: 0.3s; /* aqui sim */
+}
+.separada h2{
+    color: gray;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.separada h2:hover{
+    color: black;
+}
+
+/* BOTÃO */
+.separada button{
+    background-color:#5850ec;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.separada button:hover{
+    background-color: #6c65f0;
+}
+/*=============================*/
+section span{
+    color: #5850ec;
+}
+section{
+    margin-top: 100px; /* empurra para baixo do nav */
+    max-width: 1200px;
+    margin-left: 430px;
+    
+    padding: 0 40px;
+
+}
+section h1{
+    font-size: 50px;
+    margin: 40px;
+    padding-right: 40px;
+}
+section p{
+    color: gray;
+    font-size: 20px;
+}
