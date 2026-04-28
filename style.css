@@ -94,3 +94,32 @@ section p{
     color: gray;
     font-size: 20px;
 }
+
+.btn-primary {
+    background: #5850ec;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary:hover { background: #4740d4; }
+/*/////////////////////////////////////////////////*/
+.btn-outline {
+    background: white;
+    color: #5850ec;
+    border: 1.5px solid #d1d5db;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-outline:hover {
+    border-color: #5850ec;
+    background: #f5f4ff;
+}
