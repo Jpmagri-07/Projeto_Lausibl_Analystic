@@ -53,6 +53,7 @@
     color: gray;
     transition: 0.3s;
     font-size: 17px;
+    cursor: pointer
 }
 .separada h2:hover{
     color: black;
@@ -99,9 +100,9 @@ section p{
     background: #5850ec;
     color: white;
     border: none;
-    padding: 14px 32px;
+    padding: 20px 60px;
     border-radius: 8px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -112,9 +113,9 @@ section p{
     background: white;
     color: #5850ec;
     border: 1.5px solid #d1d5db;
-    padding: 14px 32px;
+    padding: 20px 60px;
     border-radius: 8px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -123,3 +124,38 @@ section p{
     border-color: #5850ec;
     background: #f5f4ff;
 }
+
+
+.hero {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 90px 40px 60px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.12;
+    color: #111827;
+    margin-bottom: 22px;
+}
+
+.hero h1 span { color: #5850ec; }
+
+.hero p {
+    color: #6b7280;
+    font-size: 22px;
+    line-height: 1.6;
+    max-width: 780px;
+    margin: 0 auto 36px;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
