@@ -163,58 +163,24 @@ section p{
 
 .primeiro {
     background-color:#f5f5f5d7;
-    min-height: 100vh;
-    margin: 0;
+    padding-bottom: 120px;
 }
 
-.stats {
-    display: flex;
-    justify-content: center;
-    margin-top: -100px; 
-    position: relative;
-    z-index: 10;
-}
 
-.stats img {
-    max-width: 900px;
-    width: 100%;
-    height: auto;
-}
-.bottom {
-    background-color: rgb(255, 255, 255);
-
-    position: relative;
-    z-index: 1;
-
-    min-height: 100vh;
-
-    margin-top: -600px;
-    padding-top: 300px;
-
-    width: 100%; 
-}
 .stats-wrapper {
     display: flex;
-    justify-content: center;
-
-    position: relative;
-    z-index: 10;
-
-    margin-top: -350px; 
+    justify-content:center;
+    margin-top:-150px;
 }
 
 .stats-wrapper img {
     max-width: 900px;
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-}
 
 .conteudo {
     max-width: 1200px;
