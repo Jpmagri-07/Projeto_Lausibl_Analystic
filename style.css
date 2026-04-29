@@ -31,10 +31,7 @@ body {
 /* MENU CENTRAL */
 .opcoes{
     display: flex;
-    gap: 25px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    gap: 20px;
 }
 
 /* ITENS */
@@ -75,9 +72,9 @@ body {
     color: white;
     border: 0;
     height: 40px;
-    width: 150px;
+    width: auto;
     cursor: pointer;
-    transition: 0.3s;
+    padding: 0 15px;
 }
 
 .separada button:hover{
@@ -214,7 +211,11 @@ section p{
         padding: 10px 15px;
         font-size: 14px;
     }
+    .cima img {
+        height: 30px;
+    }
 }
+
 
 @media (max-width: 768px) {
     .hero {
