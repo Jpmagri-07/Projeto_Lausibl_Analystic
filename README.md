@@ -1,4 +1,4 @@
-<h1 align="center">Lausibl Analytics (Clone Acadêmico)&nbsp; 
+<h1 align="center">Plausible Analytics (Clone Acadêmico)&nbsp; 
   <img src="imgs/logocompleto.png" alt="Logo do Projeto" width="100">
   
 </h1>
