@@ -1,3 +1,9 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 *{
     padding: 0;
     box-sizing: border-box;
@@ -50,7 +56,7 @@ body {
     gap: 15px;
 }
 .opcoes h2{
-    transition: 0.3s; /* aqui sim */
+    transition: 0.3s;
 }
 .separada h2{
     color: gray;
@@ -187,3 +193,66 @@ section p{
     margin: 0 auto;
     padding: 0 40px;
 }
+
+
+
+@media (max-width: 768px) {
+    .opcoes {
+        display: none;
+    }
+
+    .cima {
+        padding: 15px 20px;
+    }
+
+    .separada h2 {
+        display: none; 
+    }
+
+    .separada button {
+        width: auto;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-primary,
+    .btn-outline {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .stats-wrapper {
+        margin-top: -40px;
+        padding: 0 15px;
+    }
+
+    .stats-wrapper img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
